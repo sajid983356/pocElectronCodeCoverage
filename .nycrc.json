@@ -1,0 +1,18 @@
+{
+    "all": true,
+    "check-coverage": false,
+    "branches": 100,
+    "lines": 100,
+    "functions": 85,
+    "statements": 10,
+    "report-dir": "./coverage",
+    "reporter": [
+        "cobertura",
+        "html",
+        "lcov",
+        "text"
+    ],
+    "include": [
+        "*.js"
+    ]
+}
